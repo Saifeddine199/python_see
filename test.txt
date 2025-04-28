@@ -1,0 +1,22 @@
+/op-monitoring-app
+  ├── backend/         # API Python (FastAPI)
+  │     ├── app/
+  │     │     ├── main.py
+  │     │     ├── routes/
+  │     │     │      ├── __init__.py
+  │     │     │      ├── monitoring.py
+  │     │     │      └── reports.py
+  │     │     └── services/
+  │     │            ├── dynatrace_service.py
+  │     │            └── op_service.py
+  │     └── requirements.txt
+  ├── frontend/        # Interface utilisateur (ReactJS)
+  │     ├── public/
+  │     ├── src/
+  │     │     ├── components/
+  │     │     │      ├── Navbar.jsx
+  │     │     │      └── HomePage.jsx
+  │     │     ├── App.jsx
+  │     │     ├── index.js
+  │     └── package.json
+  └── README.md
