@@ -1,0 +1,29 @@
+# FastAPI et serveur ASGI
+fastapi
+uvicorn[standard]
+
+# Pour faire des appels HTTP (Dynatrace API, OP session)
+requests
+
+# Pour le traitement des fichiers Excel (si besoin)
+openpyxl
+
+# Pour manipuler des données (facultatif mais utile)
+pandas
+
+# Pour planifier des tâches si besoin (morning check automatique)
+apscheduler
+
+# CORS pour autoriser frontend React
+python-multipart
+
+# En cas d'authentification complexe ou tokens
+python-jose[cryptography]
+passlib[bcrypt]
+
+# (Optionnel) Si base de données simple prévue
+sqlalchemy
+databases
+
+# (Optionnel) Si tu veux logger proprement
+loguru

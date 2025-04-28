@@ -1,0 +1,28 @@
+# Environnements virtuels Python
+my_env/
+venv/
+env/
+
+# Node modules (React frontend)
+frontend/node_modules/
+
+# Fichiers Python inutiles
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build React
+frontend/build/
+
+# Env Variables (si tu ajoutes un jour)
+.env
